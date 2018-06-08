@@ -1,7 +1,7 @@
 @import "global/reset";
 
-@import "base/typography";
 @import "base/variables";
+@import "base/typography";
 
 @import "global/grid";
 
@@ -9,4 +9,11 @@
 
 @import "sections/header";
 @import "sections/intro";
+@import "global/grid";
+@import "base/variables";
+@import "base/typography";
+@import "components/card";
+
 @import "sections/footer";
+@import "sections/arguments";
+

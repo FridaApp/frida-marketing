@@ -1,0 +1,14 @@
+.card{
+  background: #fff;
+  box-shadow: 0 20px 40px -10px #EAF1F8;
+  padding:2rem;
+  border-radius: 5px;
+}
+.card__title{
+  color: $yellow;
+  font-weight:400;
+  margin-bottom:2rem;
+}
+.card__text{
+  margin-bottom: 1rem;
+}
