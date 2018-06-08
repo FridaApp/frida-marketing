@@ -1,4 +1,4 @@
-# Frida landing
+# Frida marketing landing page
 
 ## Getting started
 ```
