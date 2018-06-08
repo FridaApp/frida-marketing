@@ -1,0 +1,15 @@
+{
+  "name": "frieda-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MarineLB/frieda-landing.git",
+  "author": "Marine LB <marine.leborgne@live.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "blendid": "^4.4.3"
+  },
+  "scripts": {
+    "dev": "yarn run blendid",
+    "start": "yarn run blendid -- build"
+  }
+}
