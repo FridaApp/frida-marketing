@@ -3,7 +3,7 @@
 ## Getting started
 ```
 // clone git
-git clone https://github.com/MarineLB/frieda-landing.git`
+git clone https://github.com/FridaApp/frida-marketing.git`
 
 // install dependencies
 npm install
