@@ -1,0 +1,76 @@
+.arguments{
+  background: $lightgrey;
+  padding:5rem 0;
+}
+
+.arguments__container{
+  //grid-template-rows: repeat(8, auto);
+  align-items: start;
+}
+.argument.container{
+  width:100%;
+  grid-column:1/-1;
+  align-items: start;
+  min-height:0;
+  margin:2rem 0;
+}
+.arguments__header{
+  grid-column: 1 / -1;
+  text-align: center;
+  max-width: 540px;
+  margin:0 auto;
+}
+.arguments__separator{
+  grid-column: 1 / -1;
+  width:100%;
+  height:1px;
+  border: none;
+  background: #979797;
+  margin:4rem 0;
+}
+.arguments__image,
+.card{
+  grid-row:1;
+}
+.card--devis{
+  grid-column: 2 / span 5;
+}
+.arguments__image--devis{
+  align-self:start;
+  grid-column: 10 / 11;
+}
+.card--contrat{
+  grid-column: 8 / span 5;
+}
+.arguments__image--contrat{
+  align-self:center;
+  grid-column: 4;
+}
+.card--relance{
+  grid-column: 2 / span 5;
+}
+.arguments__image--relance{
+  align-self:end;
+  grid-column: 10 / 11;
+}
+.card--workflow{
+  padding:3rem;
+  grid-column: 8 / span 6;
+  //align-self:stretch;
+}
+.arguments__image--workflow{
+  align-self: center;
+  grid-column: 2 / span 5;
+  max-width: 360px;
+}
+
+.workflow__item{
+  display: flex;
+  align-items: center;
+  margin-bottom:1rem;
+}
+
+.workflow__icon{
+  max-width:25px;
+  margin-right:2rem;
+}

@@ -1,3 +1,11 @@
 body {
   font-family: sans-serif;
+  font-size:16px;
+  font-weight:300;
+  color: $grey;
+}
+
+h1, h2, h3{
+  color: $header-color;
+  font-weight:400;
 }

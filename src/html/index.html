@@ -7,26 +7,83 @@
 {% extends 'layouts/application.html' %}
 
 {% block content %}
-<<<<<<< HEAD
-  <h1 data-module="example">Coucou</h1>
-=======
   <section class="container">
     test
   </section>
-  <section class="container arguments">
-    <h2 class="arguments__header">Un seul produit pour gérer tous les aspects de la vie d’un projet</h2>
-    <p class="arguments__text">Toutes les verticales de la vie de votre projet sont liées avec Frida, gagnez ainsi un temps considérable.</p>
-    <hr class="separator">
-    <div class="card">
-      <h3 class="card__title">De la création d'un devis</h3>
-      <p class="card__text">Créez un devis personnalisable et signable électroniquement.</p>
+  <section class="arguments">
+    <div class="arguments__container container">
+      <header class="arguments__header">
+        <h2 class="arguments__header">Un seul produit pour gérer tous les aspects de la vie d’un projet</h2>
+        <p class="arguments__text">Toutes les verticales de la vie de votre projet sont liées avec Frida, gagnez ainsi un temps considérable.</p>
+      </header>
+      <hr class="arguments__separator separator">
+      <div class="argument container">
+        <div class="arguments__image arguments__image--devis">
+          <img src="images/Devis.png" alt="devis">
+        </div>
+        <div class="card card--devis">
+          <h3 class="card__title">De la création d'un devis</h3>
+          <p class="card__text">Créez un devis personnalisable et signable électroniquement.</p>
+        </div>
+      </div>
+      <div class="argument container">
+        <div class="arguments__image arguments__image--contrat">
+          <img src="images/Contrat.png" alt="contrat">
+        </div>
+        <div class="card card--contrat">
+          <h3 class="card__title">En passant par le contrat</h3>
+          <p class="card__text">Travaillez en toute sérénité grâce à nos contrats conformes et adaptés aux freelances.</p>
+        </div>
+      </div>
+      <div class="argument container">
+        <div class="arguments__image arguments__image--relance">
+          <img src="images/Relance.png" alt="relance">
+        </div>
+        <div class="card card--relance">
+          <h3 class="card__title">Jusqu'à la relance client</h3>
+          <p class="card__text">Avec Frida, vous avez la possibilité de relancer vos clients et d’avoir recours à l’envoi de courriers recommandés.</p>
+        </div>
+      </div>
+      <div class="argument container">
+        <div class="arguments__image arguments__image--workflow">
+          <img src="images/Wheel.png" alt="workflow">
+        </div>
+        <div class="card card--workflow">
+          <h3 class="card__title">Un workflow simple et automatisé</h3>
+          <ul class="workflow__list">
+            <li class="workflow__item">
+              <img src="images/devis-small.png" class="workflow__icon">
+              <span class="workflow__text"> Création et envoi de devis</span>
+            </li>
+            <li class="workflow__item">
+              <img src="images/contrat-small.png" class="workflow__icon">
+              <span class="workflow__text"> Création et envoi de contrat</span>
+            </li>
+            <li class="workflow__item">
+              <img src="images/time-small.png" class="workflow__icon">
+              <span class="workflow__text"> Time tracking, Calendrier</span>
+            </li>
+            <li class="workflow__item">
+              <img src="images/facture-small.png" class="workflow__icon">
+              <span class="workflow__text"> Création et envoi de factures</span>
+            </li>
+            <li class="workflow__item">
+              <img src="images/finances-small.png" class="workflow__icon">
+              <span class="workflow__text"> Suivi des finances</span>
+            </li>
+            <li class="workflow__item">
+              <img src="images/relance-small.png" class="workflow__icon">
+              <span class="workflow__text"> Relance client</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </div>
-    <img src="images/"
   </section>
   <footer class="footer">
 
   </footer>
->>>>>>> 696811fdb78837743d4411802bc031a307232695
 {% endblock %}
 
 

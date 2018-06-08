@@ -1,7 +1,8 @@
-@import "base/typography";
-@import "base/variables";
-
-@import "global/grid";
 @import "global/reset";
-
+@import "global/grid";
+@import "base/variables";
+@import "base/typography";
+@import "components/card";
 @import "sections/footer";
+@import "sections/arguments";
+
