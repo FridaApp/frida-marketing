@@ -7,9 +7,47 @@
 {% extends 'layouts/application.html' %}
 
 {% block content %}
-  <section class="container">
-    test
-  </section>
+<section class="intro">
+  <div class="wrap">
+    <div class="intro-bg"></div>
+    <nav class="nav">
+      <div class="nav__start">
+        <div class="nav__logo">
+          <img src="images/logo.png" alt="">
+        </div>
+        <div class="nav__links light-text">
+          <a href="" class="nav__link-item">Fonctionnalités</a>
+          <a href="" class="nav__link-item">Avantages</a>
+          <a href="" class="nav__link-item">Version bêta</a>
+        </div>
+      </div>
+      <div class="nav__login">
+        <a class="nav__cta cta" href="">
+          <span><img src="images/icons/arrow-right.png" alt=""></span>
+          Se connecter
+        </a>
+        <p>Membres bêta uniquement</p>
+      </div>
+    </nav>
+    <div class="intro-content">
+      <div class="intro-description">
+        <h1 class="intro-description__title">
+          <strong>Frida</strong>, l’assistant<br>
+          des <strong>freelances digitaux</strong>
+        </h1>
+        <p class="intro-description__text">
+          Frida est un service pour freelances qui s’occupe de toute
+          votre administration et comptabilité : Devis, Contrats, Paiements.
+        </p>
+        <p class="intro-description__text">
+          Grâce à Frida, gagnez un temps considérable
+          et concentrez-vous uniquement sur ce que vous aimez :
+          votre travail.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
   <section class="arguments">
     <div class="arguments__container container">
       <header class="arguments__header">
@@ -93,9 +131,19 @@
       </div>
     </div>
   </section>
-  <footer class="footer">
+<footer class="footer subscribe">
+  <div class="subscribe__container">
+    <h2 class="subscribe__headline">Inscrivez vous à la bêta</h2>
+    <p class="subscribe__text">Testez en exclusivité Frida avant son lancement à la rentrée 2018 !</p>
+    <form class="subscribe__form" id="subscribe-form">
+      <input class="subscribe__email" type="email" name="email" id="email-input" placeholder="Adresse e-mail" required>
+      <p class="subscribe__button-wrap"><button class="subscribe__submit cta" type="submit">Envoyer</button></p>
+      <p class="subscribe__connect">Déjà inscrit ? <a href="#">Se connecter</a></p>
+    </form>
+    <p class="subscribe__subscribed">Vous êtes inscrit(e) à la liste !</p>
 
-  </footer>
+  </div>
+</footer>
 {% endblock %}
 
 

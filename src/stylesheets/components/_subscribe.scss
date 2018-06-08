@@ -1,0 +1,94 @@
+.subscribe {
+  background-color: #fb596b;
+  color: $text-color;
+  padding: 64px 0 0;
+  text-align: center;
+
+  &__container {
+    max-width: 360px;
+    margin:0 auto;
+  }
+
+  &__email {
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid $text-color;
+    color: $text-color;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    height: 45px;
+    padding: 0 0 0 20px;
+    width: 100%;
+    margin-bottom:4rem;
+    outline:none;
+
+    @include breakpoint(small) {
+      width: 340px;
+    }
+
+    &::placeholder {
+      color: $text-color;
+    }
+  }
+
+  &__form {
+    //align-items: center;
+    @include breakpoint(small) {
+      //display: inline-flex;
+    }
+  }
+
+  &__submit {
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    height: 45px;
+    margin-top: 30px;
+    transition: all 0.15s ease-in-out;
+    //display: block;
+
+    @include breakpoint(small) {
+      margin-top: 0;
+      padding: 0 30px;
+      width: initial;
+    }
+
+    &:hover {
+      background: rgba($yellow, 0.9);
+    }
+  }
+
+  &__headline {
+    color: white;
+    font-size: 1.5rem;
+    @include breakpoint(small) {
+      font-size: 2rem;
+    }
+  }
+
+  &__text {
+    color: white;
+    margin: 30px 0 50px;
+  }
+
+  &__subscribed {
+    padding: 30px 0 0;
+    display: none;
+  }
+
+  &__connect{
+    font-size:0.9rem;
+    margin-top:0.5rem;
+
+    a{
+      color: white;
+      text-decoration: underline;
+      transition: all .2s ease-out;
+
+      &:hover{
+        opacity:0.9;
+      }
+    }
+  }
+}
