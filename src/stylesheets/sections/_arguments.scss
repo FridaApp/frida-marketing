@@ -20,6 +20,9 @@
   max-width: 540px;
   margin:0 auto;
 }
+.arguments__title{
+  margin-bottom:2rem;
+}
 .arguments__separator{
   grid-column: 1 / -1;
   width:100%;
@@ -50,7 +53,7 @@
   grid-column: 2 / span 5;
 }
 .arguments__image--relance{
-  align-self:end;
+  align-self:center;
   grid-column: 10 / 11;
 }
 .card--workflow{
