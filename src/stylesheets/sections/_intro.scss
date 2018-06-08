@@ -1,13 +1,46 @@
 .intro {
   height: 100vh;
+  padding-top: 30px;
 }
 
 .intro-bg {
   position: absolute;
   background: #172434;
-  width: 400px;
+  width: 50vw;
   height: 100vh;
   top: 0;
   left: 1040px;
-  z-index: 0;
+  z-index: -10;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-description {
+  display: inline-block;
+  margin-top: 20vh;
+  width: 480px;
+}
+
+.intro-description__title {
+  margin-bottom: 50px;
+}
+
+.intro-description__text {
+  margin-bottom: 45px
+}
+
+.intro-mockup {
+  display: inline-block;
+  width: 500px;
+  margin-top: 10vh;
+  animation: floating 1.5s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% { transform:translateY(0px); }
+  50% { transform:translateY(7px); }
+  100% { transform:translateY(0px); }
 }
