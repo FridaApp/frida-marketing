@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+
+  * {
+    display: inline-block;
+  }
+}
+
+.nav__start {
+  display: flex;
+  align-items: center;  
+}
+
+.nav__logo {
+  width: 35px;
+}
+
+.nav__links {
+  margin-left: 76px;
+}
+
+.nav__link-item {
+  margin-right: 56px;
+}
+
+.nav__login {
+  position: relative;
+
+  .cta, p {
+    display: block;
+  }
+
+  p {
+    position: absolute;
+    min-width: 170px;
+    top: 60px;
+
+  }
+}

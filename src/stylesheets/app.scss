@@ -1,7 +1,12 @@
+@import "global/reset";
+
 @import "base/typography";
 @import "base/variables";
 
 @import "global/grid";
-@import "global/reset";
 
+@import "components/buttons";
+
+@import "sections/header";
+@import "sections/intro";
 @import "sections/footer";

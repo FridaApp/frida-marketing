@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="arrow-right" viewBox="0 0 12 9">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    
+    <g id="MAQUETTES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LAnding" transform="translate(-1150.000000, -52.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="0.5">
+            <g id="Group-17" transform="translate(1139.000000, 39.000000)">
+                <path d="M15.2622963,14.1057398 C15.4032827,13.9647534 15.6252411,13.9647534 15.7662276,14.1057398 C15.902451,14.2419632 15.902451,14.4686847 15.7662276,14.6045905 L13.2110069,17.1598112 L21.6428857,17.1598112 C21.8394412,17.1598112 22.00075,17.3160394 22.00075,17.5125948 C22.00075,17.7091503 21.8394412,17.8704591 21.6428857,17.8704591 L13.2110069,17.8704591 L15.7662276,20.4209167 C15.902451,20.5619031 15.902451,20.7889421 15.7662276,20.924848 C15.6252411,21.0658344 15.4032827,21.0658344 15.2622963,20.924848 L12.1021675,17.7647193 C11.9659442,17.6284959 11.9659442,17.4017744 12.1021675,17.2658686 L15.2622963,14.1057398 Z" id="Shape" transform="translate(17.000375, 17.515294) rotate(-180.000000) translate(-17.000375, -17.515294) "/>
+            </g>
+        </g>
+    </g>
+</symbol></svg>

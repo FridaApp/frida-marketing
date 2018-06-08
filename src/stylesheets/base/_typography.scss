@@ -1,3 +1,17 @@
-body {
-  font-family: sans-serif;
+body, p {
+  font-family: 'Open Sans', sans-serif;
 }
+
+.light-text {
+  font-weight: 300;
+}
+
+.cta {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav__login p {
+  color: #B6CADE;
+  font-size: 12px;
+} 
