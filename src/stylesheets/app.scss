@@ -1,19 +1,16 @@
 @import "global/reset";
-
+@import "mixins/breakpoints";
 @import "base/variables";
 @import "base/typography";
 
 @import "global/grid";
 
 @import "components/buttons";
+@import "components/card";
+@import "components/subscribe";
 
 @import "sections/header";
 @import "sections/intro";
-@import "global/grid";
-@import "base/variables";
-@import "base/typography";
-@import "components/card";
-
 @import "sections/footer";
 @import "sections/arguments";
 

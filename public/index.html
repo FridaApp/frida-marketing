@@ -14,20 +14,15 @@
   </head>
   <body>
     
-  <section class="intro">
-    <div class="wrap">
-      <div class="intro-bg"></div>      
-      <nav class="nav">
-        <div class="nav__start">
-          <div class="nav__logo">
-            <img src="images/logo.png" alt="">
-          </div>
-          <div class="nav__links light-text">
-            <a href="" class="nav__link-item">Fonctionnalités</a>
-            <a href="" class="nav__link-item">Avantages</a>
-            <a href="" class="nav__link-item">Version bêta</a>
-          </div>
+<section class="intro">
+  <div class="wrap">
+    <div class="intro-bg"></div>
+    <nav class="nav">
+      <div class="nav__start">
+        <div class="nav__logo">
+          <img src="images/logo.png" alt="">
         </div>
+<<<<<<< HEAD
         <div class="nav__login">
           <a class="nav__cta cta" href="">
             <span><img src="images/icons/arrow-right.png" alt=""></span>
@@ -54,14 +49,45 @@
         </div>
         <div class="intro-mockup">
           <img src="images/Mockup/MOCKUP.png" alt="">
+=======
+        <div class="nav__links light-text">
+          <a href="" class="nav__link-item">Fonctionnalités</a>
+          <a href="" class="nav__link-item">Avantages</a>
+          <a href="" class="nav__link-item">Version bêta</a>
+>>>>>>> 31684f331551b5ab589b563425e829c7585addca
         </div>
       </div>
+      <div class="nav__login">
+        <a class="nav__cta cta" href="">
+          <span><img src="images/icons/arrow-right.png" alt=""></span>
+          Se connecter
+        </a>
+        <p>Membres bêta uniquement</p>
+      </div>
+    </nav>
+    <div class="intro-content">
+      <div class="intro-description">
+        <h1 class="intro-description__title">
+          <strong>Frida</strong>, l’assistant<br>
+          des <strong>freelances digitaux</strong>
+        </h1>
+        <p class="intro-description__text">
+          Frida est un service pour freelances qui s’occupe de toute
+          votre administration et comptabilité : Devis, Contrats, Paiements.
+        </p>
+        <p class="intro-description__text">
+          Grâce à Frida, gagnez un temps considérable
+          et concentrez-vous uniquement sur ce que vous aimez :
+          votre travail.
+        </p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
   <section class="arguments">
     <div class="arguments__container container">
       <header class="arguments__header">
-        <h2 class="arguments__header">Un seul produit pour gérer tous les aspects de la vie d’un projet</h2>
+        <h2 class="arguments__title">Un seul produit pour gérer tous les aspects de la vie d’un projet</h2>
         <p class="arguments__text">Toutes les verticales de la vie de votre projet sont liées avec Frida, gagnez ainsi un temps considérable.</p>
       </header>
       <hr class="arguments__separator separator">
@@ -126,10 +152,34 @@
           </ul>
         </div>
       </div>
+      <div class="arguments__header">
+        <h2 class="arguments__title">Un produit pensé pour les freelances français... à l'échelle mondiale</h2>
+      </div>
+      <div class="argument container abroad">
+        <div class="card card--big card--legislation">
+          <img src="images/Legislation.png" alt="legislation française" class="card__floating-image">
+          <p class="card__text">Frida est entièrement adapté à la législation française (statuts, impôts).</p>
+        </div>
+        <div class="card card--big card--abroad">
+          <img src="images/Abroad.png" alt="legislation française" class="card__floating-image">
+          <p class="card__text">Des clients à l’étranger ? Frida vous permet d’envoyer vos documents en anglais et dans de multiples devises. ($,£,¥).</p>
+        </div>
+      </div>
     </div>
   </section>
-  <footer class="footer">
-  </footer>
+<footer class="footer subscribe">
+  <div class="subscribe__container">
+    <h2 class="subscribe__headline">Inscrivez vous à la bêta</h2>
+    <p class="subscribe__text">Testez en exclusivité Frida avant son lancement à la rentrée 2018 !</p>
+    <form class="subscribe__form" id="subscribe-form">
+      <input class="subscribe__email" type="email" name="email" id="email-input" placeholder="Adresse e-mail" required>
+      <p class="subscribe__button-wrap"><button class="subscribe__submit cta" type="submit">Envoyer</button></p>
+      <p class="subscribe__connect">Déjà inscrit ? <a href="#">Se connecter</a></p>
+    </form>
+    <p class="subscribe__subscribed">Vous êtes inscrit(e) à la liste !</p>
+
+  </div>
+</footer>
 
     
       <script src="javascripts/app.js"></script>

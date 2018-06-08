@@ -10,6 +10,25 @@ h1, h2, h3 {
   font-weight:400;
 }
 
+h1{
+  font-size:1.3rem;
+  @include breakpoint(small){
+    font-size:2rem;
+  }
+}
+h2{
+  font-size:1.2rem;
+  @include breakpoint(small){
+    font-size:1.5rem;
+  }
+}
+h3{
+  font-size:1.1rem;
+  @include breakpoint(small){
+    font-size:1.2rem;
+  }
+}
+
 .light-text {
   font-weight: 300;
 }
@@ -22,6 +41,7 @@ h1, h2, h3 {
 .nav__login p {
   color: #B6CADE;
   font-size: 12px;
+<<<<<<< HEAD
 }
 
 .intro-description__title {
@@ -32,3 +52,7 @@ h1, h2, h3 {
   color: $grey;
   line-height: 30px;
 }
+=======
+} 
+
+>>>>>>> 31684f331551b5ab589b563425e829c7585addca
