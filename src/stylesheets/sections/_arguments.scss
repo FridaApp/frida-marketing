@@ -1,39 +1,60 @@
 .arguments{
   background: $lightgrey;
-  padding:5rem 0;
+  padding:3rem 0;
 }
-
+.argument.container{
+  display: block;
+  margin:2rem;
+  text-align: center;
+  grid-column:1/-1;
+  align-items: start;
+  min-height:0;
+  @include breakpoint(small){
+    display: grid;
+    margin:2rem 0 3rem;
+    text-align: inherit;
+  }
+}
 .arguments__container{
   //grid-template-rows: repeat(8, auto);
   align-items: start;
 }
-.argument.container{
-  width:100%;
-  grid-column:1/-1;
-  align-items: start;
-  min-height:0;
-  margin:2rem 0;
-}
+
 .arguments__header{
   grid-column: 1 / -1;
   text-align: center;
   max-width: 540px;
   margin:0 auto;
+  padding:0 2rem;
 }
 .arguments__title{
+  margin-top:2rem;
   margin-bottom:2rem;
 }
 .arguments__separator{
-  grid-column: 1 / -1;
-  width:100%;
-  height:1px;
-  border: none;
-  background: #979797;
-  margin:4rem 0;
+  display:none;
+  @include breakpoint(small){
+    display: block;
+    margin:4rem 0;
+    grid-column: 1 / -1;
+    max-width:100%;
+    height:1px;
+    border: none;
+    background: #979797;
+  }
+}
+
+.arguments.container--abroad{
+
 }
 .arguments__image,
 .card{
   grid-row:1;
+
+}
+.arguments__image{
+  max-width: 60px;
+  margin:0 auto 1rem;
 }
 .card--devis{
   grid-column: 2 / span 5;
@@ -57,23 +78,73 @@
   grid-column: 10 / 11;
 }
 .card--workflow{
-  padding:3rem;
+  padding:1.5rem;
   grid-column: 8 / span 6;
   //align-self:stretch;
+  @include breakpoint(small){
+    padding:3rem;
+  }
 }
 .arguments__image--workflow{
   align-self: center;
   grid-column: 2 / span 5;
   max-width: 360px;
+  margin: 0 auto;
 }
 
 .workflow__item{
   display: flex;
   align-items: center;
   margin-bottom:1rem;
+  text-align: left;
 }
 
 .workflow__icon{
   max-width:25px;
   margin-right:2rem;
+}
+.argument.container.abroad{
+  align-items: stretch;
+  align-content: center;
+  margin:0 2rem 3rem 3rem;
+  @include breakpoint(small){
+    margin:0;
+  }
+}
+.card--big{
+  padding-left:3.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height:120px;
+  margin:2rem 0;
+  text-align: left;
+  @include breakpoint(large){
+    min-height:220px;
+    padding-left:5rem;
+  }
+}
+.card__floating-image{
+  max-width:80px;
+  position: absolute;
+  left:0%;
+  transform:translateX(-42%);
+  @include breakpoint(large){
+    max-width:125px;
+  }
+}
+.card--big .card__text{
+  margin-bottom: 0;
+}
+.card--legislation{
+  grid-column: 2 / span 5;
+  @include breakpoint(large){
+    grid-column: 1 / span 6;
+  }
+}
+.card--abroad{
+  grid-column: 9 / span 5;
+  @include breakpoint(large){
+    grid-column: 8 / span 6;
+  }
 }

@@ -9,3 +9,22 @@ h1, h2, h3{
   color: $header-color;
   font-weight:400;
 }
+
+h1{
+  font-size:1.3rem;
+  @include breakpoint(small){
+    font-size:2rem;
+  }
+}
+h2{
+  font-size:1.2rem;
+  @include breakpoint(small){
+    font-size:1.5rem;
+  }
+}
+h3{
+  font-size:1.1rem;
+  @include breakpoint(small){
+    font-size:1.2rem;
+  }
+}
