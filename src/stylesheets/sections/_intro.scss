@@ -40,6 +40,10 @@
   width: 500px;
   margin-top: 10vh;
   animation: floating 1.5s ease-in-out infinite;
+  @include breakpoint(small) {
+    width: 260px;
+    margin-top: 23vh;
+  }
 }
 
 @keyframes floating {

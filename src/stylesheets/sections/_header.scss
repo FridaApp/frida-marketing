@@ -20,10 +20,16 @@
 
 .nav__links {
   margin-left: 76px;
+  @include breakpoint(small){
+    margin-left: 36px;
+  }
 }
 
 .nav__link-item {
   margin-right: 56px;
+  @include breakpoint(small){
+    margin-right: 30px;
+  }
 }
 
 .nav__login {
