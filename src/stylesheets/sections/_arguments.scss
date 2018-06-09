@@ -44,74 +44,96 @@
   }
 }
 
-.arguments.container--abroad{
+.arguments.container--abroad {
 
 }
 .arguments__image,
-.card{
-  grid-row:1;
-
+.card {
+  grid-row: 1;
 }
-.arguments__image{
+
+.card {
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  transform: translateY(40px);
+}
+.card--appeared {
+  opacity: 1;
+  transform: translateY(0);  
+}
+.arguments__image {
   max-width: 60px;
   margin:0 auto 1rem;
 }
-.card--devis{
+.card--devis {
   grid-column: 2 / span 5;
 }
-.arguments__image--devis{
+.arguments__image--devis {
   align-self:start;
   grid-column: 10 / 11;
 }
-.card--contrat{
+.card--contrat {
   grid-column: 8 / span 5;
 }
-.arguments__image--contrat{
+.arguments__image--contrat {
   align-self:center;
   grid-column: 4;
 }
-.card--relance{
+.card--relance {
   grid-column: 2 / span 5;
 }
-.arguments__image--relance{
+.arguments__image--relance {
   align-self:center;
   grid-column: 10 / 11;
 }
-.card--workflow{
+.card--workflow {
   padding:1.5rem;
   grid-column: 8 / span 6;
   //align-self:stretch;
-  @include breakpoint(small){
+  @include breakpoint(small) {
     padding:3rem;
   }
 }
-.arguments__image--workflow{
+.arguments__image--workflow {
   align-self: center;
   grid-column: 2 / span 5;
   max-width: 360px;
   margin: 0 auto;
 }
 
-.workflow__item{
+.workflow__item {
   display: flex;
   align-items: center;
   margin-bottom:1rem;
   text-align: left;
+  opacity: 0;
+  transform: translateX(-5px);
 }
 
-.workflow__icon{
+.card-workflow--appeared .workflow__item{
+  opacity: 1;
+  transform: translateX(0);
+} 
+
+@for $i from 1 through 6 {
+  .workflow__item--#{$i} {
+    transition: all 400ms ease-in-out 200ms*$i;
+  }
+}
+
+.workflow__icon {
   max-width:25px;
   margin-right:2rem;
 }
-.argument.container.abroad{
+.argument.container.abroad {
   align-items: stretch;
   align-content: center;
   margin:0 2rem 3rem 3rem;
-  @include breakpoint(small){
+  @include breakpoint(small) {
     margin:0;
   }
 }
-.card--big{
+.card--big {
   padding-left:3.5rem;
   position: relative;
   display: flex;
@@ -119,32 +141,32 @@
   min-height:120px;
   margin:2rem 0;
   text-align: left;
-  @include breakpoint(large){
+  @include breakpoint(large) {
     min-height:220px;
     padding-left:5rem;
   }
 }
-.card__floating-image{
+.card__floating-image {
   max-width:80px;
   position: absolute;
   left:0%;
   transform:translateX(-42%);
-  @include breakpoint(large){
+  @include breakpoint(large) {
     max-width:125px;
   }
 }
-.card--big .card__text{
+.card--big .card__text {
   margin-bottom: 0;
 }
-.card--legislation{
+.card--legislation {
   grid-column: 2 / span 5;
-  @include breakpoint(large){
+  @include breakpoint(large) {
     grid-column: 1 / span 6;
   }
 }
-.card--abroad{
+.card--abroad {
   grid-column: 9 / span 5;
-  @include breakpoint(large){
+  @include breakpoint(large) {
     grid-column: 8 / span 6;
   }
 }

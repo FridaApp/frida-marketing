@@ -1,13 +1,25 @@
 .cta {
-  padding: 12px 20px;
+  position: relative;
+  padding: 12px 20px 12px 32px;
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
   background: $yellow;
-  border:none;
+  border: none;
+  box-shadow: 1px 3px 17px 1px rgba(0, 0, 0, 0.15);
 
-  span {
-    margin-right: 12px;
+  &:hover img {
+    left: 16px;
+  }
+
+  img {
+    width: 12px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12px;
+    margin: auto;
+    transition: all 200ms ease-in-out;
   }
 }
 
