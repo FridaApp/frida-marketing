@@ -17,11 +17,18 @@
   <section class="intro">
     <div class="wrap">
       <div class="intro-bg"></div>      
-      <nav class="nav">
+      <nav class="nav hidden-xs">
         <div class="nav__start">
           <div class="nav__logo">
             <img src="images/logo.png" alt="">
           </div>
+          <div class="burger-wrap">
+            <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            </div>
           <div class="nav__links light-text">
             <a href="" class="nav__link-item">Fonctionnalités</a>
             <a href="" class="nav__link-item">Avantages</a>
@@ -36,8 +43,36 @@
           <p>Membres bêta uniquement</p>
         </div>
       </nav>
+      <nav class="nav visible-xs">
+        <div class="nav__start">
+          <div class="nav__logo">
+            <img src="images/logo.png" alt="">
+          </div>
+          <div class="burger-wrap">
+            <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="mobileMenu">
+          <div class="nav__links light-text">
+            <a href="" class="nav__link-item">Fonctionnalités</a>
+            <a href="" class="nav__link-item">Avantages</a>
+            <a href="" class="nav__link-item">Version bêta</a>
+          </div>
+          <div class="nav__login">
+            <a class="nav__cta cta" href="">
+              <span><img src="images/icons/arrow-right.png" alt=""></span>
+              Se connecter
+            </a>
+            <p>Membres bêta uniquement</p>
+          </div>
+        </div>
+      </nav>
       <div class="intro-content">
-        <div class="intro-description">
+        <div class="intro-description hidden-xs">
           <h1 class="intro-description__title">
             <strong>Frida</strong>, l’assistant<br>
             des <strong>freelances digitaux</strong>
@@ -56,6 +91,25 @@
               S'inscrire à la bêta
             </a>
         </div>
+        <div class="intro-description visible-xs">
+            <h1 class="intro-description__title">
+              <strong>Frida</strong>, l’assistant<br>
+              des <strong>freelances digitaux</strong>
+            </h1>
+            <p class="intro-description__text">
+              Frida est un service pour freelances qui s’occupe de toute
+              votre administration et comptabilité : Devis, Contrats, Paiements. 
+            </p>
+            <p class="intro-description__text">
+              Grâce à Frida, gagnez un temps considérable
+              et concentrez-vous uniquement sur ce que vous aimez :
+              votre travail.
+            </p>
+            <a class="intro-description__cta cta" href="">
+                <span><img src="images/icons/arrow-right.png" alt=""></span>
+                S'inscrire à la bêta
+              </a>
+          </div>
         <div class="intro-mockup">
           <img src="images/Mockup/MOCKUP.png" alt="">
         </div>

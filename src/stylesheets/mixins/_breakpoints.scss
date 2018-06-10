@@ -23,3 +23,16 @@
     @warn "Breakpoint mixin supports: xsmall (max:767px), small (min:768px), medium (min:992px) and large (min:1200px)";
   }
 }
+
+.hidden-xs {
+  @include breakpoint(xsmall) {
+    display: none!important;
+  } 
+}
+
+.visible-xs {
+  display: block;
+  @include breakpoint(small) {
+    display: none!important;
+  } 
+}

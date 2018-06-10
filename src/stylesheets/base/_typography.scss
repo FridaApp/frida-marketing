@@ -44,7 +44,10 @@ h3 {
 }
 
 .intro-description__title {
-  font-size: 34px;
+  font-size: 26px;
+  @include breakpoint(medium) {
+    font-size: 34px;
+  }
 }
 
 .intro-description__text {
