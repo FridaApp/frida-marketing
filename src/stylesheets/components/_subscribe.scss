@@ -39,26 +39,6 @@
     }
   }
 
-  &__submit {
-    cursor: pointer;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    height: 45px;
-    margin-top: 30px;
-    transition: all 0.15s ease-in-out;
-    //display: block;
-
-    @include breakpoint(small) {
-      margin-top: 0;
-      padding: 0 30px;
-      width: initial;
-    }
-
-    &:hover {
-      background: rgba($yellow, 0.9);
-    }
-  }
-
   &__headline {
     color: white;
     font-size: 1.5rem;

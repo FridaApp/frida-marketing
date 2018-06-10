@@ -2,7 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  @include breakpoint(small){
+    margin-top: 30px;
+  }
 
   * {
     display: inline-block;
@@ -15,19 +19,35 @@
 }
 
 .nav__logo {
-  width: 35px;
+  width: 35px;  
+  z-index: 50;
 }
 
 .nav__links {
-  margin-left: 76px;
+  @include breakpoint(small){
+    margin-left: 36px;
+  }
+  @include breakpoint(large){
+    margin-left: 36px;
+  }
 }
 
 .nav__link-item {
   margin-right: 56px;
+  @include breakpoint(small){
+    margin-right: 30px;
+  }
+  @include breakpoint(xsmall){
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 
 .nav__login {
   position: relative;
+  @include breakpoint(xsmall){
+    margin-top: 20px;
+  }
 
   .cta, p {
     display: block;
@@ -37,6 +57,105 @@
     position: absolute;
     min-width: 170px;
     top: 60px;
-
   }
 }
+
+body.lock {
+  overflow: hidden;
+}
+
+.mobileMenu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 30% 10% 16%;
+  opacity: 0;
+  z-index: 20;
+  box-sizing: border-box;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+}
+.mobileMenu.open {
+  display: block;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.burger-wrap {
+  position: absolute;
+  top: 21px;
+  right: 20px;
+  z-index: 40;
+  transition: 300ms 700ms transform ease-in;
+}
+.burger-wrap.reappearBurger {
+  opacity: 0;
+  animation: 0.5s 2s fadeAppear ease-out forwards;
+}
+
+@keyframes fadeAppear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.burger {
+  width: 30px;
+  height: 27px;
+  cursor: pointer;
+  z-index: 30;
+  transition: transform 1s ease-in;
+
+  span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    right: 0;
+    background: $darkgrey;
+    border-radius: 9px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+
+    &:nth-child(1) {
+      top: 0px;
+      width: 50%;
+    }    
+
+    &:nth-child(2) {
+      top: 12px;
+      width: 75%;
+    }
+
+    &:nth-child(3) {
+      top: 24px;
+      width: 100%;
+    }
+  }
+
+  &.active {
+
+    span:nth-child(1) {
+      width: 100%;
+      top: 18px;
+      transform: rotate(135deg);
+    }
+
+    span:nth-child(2) {
+      opacity: 0;
+      left: -60px;
+    }
+
+    span:nth-child(3) {
+      top: 18px;
+      transform: rotate(-135deg);
+    }
+  }
+}
+

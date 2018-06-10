@@ -1,5 +1,9 @@
-//import './modules'
+
 import Subscribe from './modules/Subscribe';
+import './libs/jquery';
+import './libs/appear'
+import './modules/appear'
+import initBurger from './modules/burger'
 
 class App {
     constructor() {
@@ -13,5 +17,7 @@ class App {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('dom loaded');
     const app = new App()
-})
+    initBurger();
+});

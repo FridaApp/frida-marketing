@@ -10,19 +10,19 @@ h1, h2, h3 {
   font-weight:400;
 }
 
-h1{
+h1 {
   font-size:1.3rem;
   @include breakpoint(small){
     font-size:2rem;
   }
 }
-h2{
+h2 {
   font-size:1.2rem;
   @include breakpoint(small){
     font-size:1.5rem;
   }
 }
-h3{
+h3 {
   font-size:1.1rem;
   @include breakpoint(small){
     font-size:1.2rem;
@@ -41,18 +41,16 @@ h3{
 .nav__login p {
   color: #B6CADE;
   font-size: 12px;
-<<<<<<< HEAD
 }
 
 .intro-description__title {
-  font-size: 34px;
+  font-size: 26px;
+  @include breakpoint(medium) {
+    font-size: 34px;
+  }
 }
 
 .intro-description__text {
   color: $grey;
   line-height: 30px;
-}
-=======
 } 
-
->>>>>>> 31684f331551b5ab589b563425e829c7585addca

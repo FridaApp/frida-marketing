@@ -1,6 +1,9 @@
 .intro {
-  height: 100vh;
-  padding-top: 30px;
+
+  @include breakpoint(small) {
+    height: 100vh;
+    padding-top: 30px;
+  }
 }
 
 .intro-bg {
@@ -9,34 +12,55 @@
   width: 50vw;
   height: 100vh;
   top: 0;
-  left: 1040px;
+  left: 72%;
   z-index: -10;
+  @media (min-width: 1500px) {
+    left: 69%;
+  }
+  @include breakpoint(xsmall) {
+    display: none;
+  }
 }
 
 .intro-content {
-  display: flex;
-  justify-content: space-between;
+  @include breakpoint(large) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .intro-description {
-  display: inline-block;
-  margin-top: 20vh;
-  width: 480px;
+  @include breakpoint(large) {
+    display: inline-block;
+    margin-top: 20vh;
+    width: 480px;
+  }
 }
 
 .intro-description__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;  
+  @include breakpoint(medium) {
+    margin-bottom: 50px;
+  }
 }
 
 .intro-description__text {
-  margin-bottom: 45px
+  margin-bottom: 25px;  
+  @include breakpoint(medium) {
+    margin-bottom: 45px;
+  }
 }
 
 .intro-mockup {
-  display: inline-block;
-  width: 500px;
-  margin-top: 10vh;
+  display: block;
+  margin: 60px auto 0px;
+  width: 260px;
   animation: floating 1.5s ease-in-out infinite;
+  @include breakpoint(medium) {
+    display: inline-block;
+    width: 500px;
+    margin: 10vh auto 0;
+  }
 }
 
 @keyframes floating {
