@@ -1,8 +1,8 @@
-.arguments{
+.arguments {
   background: $lightgrey;
   padding:3rem 0 6rem;
 }
-.argument.container{
+.argument.container {
   display: block;
   margin:2rem;
   text-align: center;
@@ -15,24 +15,24 @@
     text-align: inherit;
   }
 }
-.arguments__container{
+.arguments__container {
   //grid-template-rows: repeat(8, auto);
   align-items: start;
 }
 
-.arguments__header{
+.arguments__header {
   grid-column: 1 / -1;
   text-align: center;
   max-width: 540px;
   margin:0 auto;
   padding:0 2rem;
 }
-.arguments__title{
+.arguments__title {
   margin-top:2rem;
   margin-bottom:2rem;
 }
-.arguments__separator{
-  display:none;
+.arguments__separator {
+  display: none;
   @include breakpoint(small){
     display: block;
     margin:4rem 0;
@@ -40,13 +40,10 @@
     max-width:100%;
     height:1px;
     border: none;
-    background: #979797;
+    background: transparent;
   }
 }
 
-.arguments.container--abroad {
-
-}
 .arguments__image,
 .card {
   grid-row: 1;

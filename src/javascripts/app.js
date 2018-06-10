@@ -1,7 +1,23 @@
-import './libs/jquery'
+
+import Subscribe from './modules/Subscribe';
+import './libs/jquery';
 import './libs/appear'
 import './modules/appear'
-import './modules/burger'
+import initBurger from './modules/burger'
 
+class App {
+    constructor() {
+        this._init()
+    }
 
-console.log(`app.js has loaded!`)
+    _init() {
+        this.subscribe = new Subscribe()
+        //var scroll = new SmoothScroll('a[href*="#"]')
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('dom loaded');
+    const app = new App()
+    initBurger();
+});
