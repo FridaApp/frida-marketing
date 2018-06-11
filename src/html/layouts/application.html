@@ -1,20 +1,68 @@
 {% from 'macros/helpers.html' import sprite %}
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{% block title %}{{ title }}{% endblock %}</title>
-    <link rel="stylesheet" href="stylesheets/app.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    {% include "shared/app-icons.html" %}
-    {% block head %}{% endblock %}
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-  </head>
-  <body>
-    {% block content %}{% endblock %}
-    {% block javascript %}
-      <script src="javascripts/app.js"></script>
-    {% endblock %}
-  </body>
+<head>
+  <meta charset="utf-8">
+
+  <title>FRIDA - L’assistant pour les freelances du digital</title>
+
+  <!-- SEO meta -->
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="FRIDA - L’assistant pour les freelances du digital : Devis, Contrats, Factures, Paiements"
+  />
+  <!-- End SEO meta -->
+
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- IE meta -->
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <!-- End IE meta -->
+
+  <!-- Apple meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="" />
+  <!-- End Apple meta -->
+
+  <!-- Facebook meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.frida-app.fr" />
+  <meta property="og:title" content="FRIDA - L’assistant pour les freelances du digital" />
+  <meta property="og:image" content="https://www.frida-app.fr/img/fb-meta.jpg" />
+  <meta property="og:site_name" content="Frida App" />
+  <meta property="og:description" content="FRIDA - L’assistant pour les freelances du digital : Devis, Contrats, Factures, Paiements"
+  />
+  <!-- End Facebook meta -->
+
+  <!-- Twitter meta -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:image" content="" />
+  <!-- End Twitter meta -->
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- End Favicon -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+  {% block content %}{% endblock %} {% block javascript %}
+  <script src="javascripts/app.js"></script> {% endblock %}
+</body>
+
 </html>

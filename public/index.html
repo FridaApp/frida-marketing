@@ -1,218 +1,276 @@
 
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="stylesheets/app.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <!-- Generate using http://realfavicongenerator.net/ -->
+<head>
+  <meta charset="utf-8">
 
+  <title>FRIDA - L’assistant pour les freelances du digital</title>
 
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-  </head>
-  <body>
-    
-  <section class="intro">
-    <div class="wrap">
-      <div class="intro-bg"></div>      
-      <nav class="nav hidden-xs">
-        <div class="nav__start">
-          <div class="nav__logo">
-            <img src="images/logo.png" alt="">
+  <!-- SEO meta -->
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="FRIDA - L’assistant pour les freelances du digital : Devis, Contrats, Factures, Paiements"
+  />
+  <!-- End SEO meta -->
+
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- IE meta -->
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <!-- End IE meta -->
+
+  <!-- Apple meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="" />
+  <!-- End Apple meta -->
+
+  <!-- Facebook meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.frida-app.fr" />
+  <meta property="og:title" content="FRIDA - L’assistant pour les freelances du digital" />
+  <meta property="og:image" content="https://www.frida-app.fr/img/fb-meta.jpg" />
+  <meta property="og:site_name" content="Frida App" />
+  <meta property="og:description" content="FRIDA - L’assistant pour les freelances du digital : Devis, Contrats, Factures, Paiements"
+  />
+  <!-- End Facebook meta -->
+
+  <!-- Twitter meta -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:image" content="" />
+  <!-- End Twitter meta -->
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- End Favicon -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+   <section class="intro">
+  <div class="wrap">
+    <div class="intro-bg"></div>
+    <nav class="nav hidden-xs">
+      <div class="nav__start">
+        <div class="nav__logo">
+          <img src="images/logo.png" alt="">
+        </div>
+        <div class="nav__links light-text">
+          <a href="#features" class="nav__link-item">Fonctionnalités</a>
+          <a href="#perks" class="nav__link-item">Avantages</a>
+          <a href="#beta" class="nav__link-item">Version bêta</a>
+        </div>
+      </div>
+      <div class="nav__login">
+        <a class="nav__cta cta" href="">
+          <span>
+            <img src="images/icons/arrow-right.png" alt="">
+          </span>
+          Se connecter
+        </a>
+        <p>Membres bêta uniquement</p>
+      </div>
+    </nav>
+    <nav class="nav visible-xs">
+      <div class="nav__start">
+        <div class="nav__logo">
+          <img src="images/logo.png" alt="">
+        </div>
+        <div class="burger-wrap">
+          <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-          <div class="nav__links light-text">
-            <a href="#features" class="nav__link-item">Fonctionnalités</a>
-            <a href="#perks" class="nav__link-item">Avantages</a>
-            <a href="#beta" class="nav__link-item">Version bêta</a>
-          </div>
+        </div>
+      </div>
+      <div class="mobileMenu">
+        <div class="nav__links light-text">
+          <a href="" class="nav__link-item">Fonctionnalités</a>
+          <a href="" class="nav__link-item">Avantages</a>
+          <a href="" class="nav__link-item">Version bêta</a>
         </div>
         <div class="nav__login">
           <a class="nav__cta cta" href="">
-            <span><img src="images/icons/arrow-right.png" alt=""></span>
+            <span>
+              <img src="images/icons/arrow-right.png" alt="">
+            </span>
             Se connecter
           </a>
           <p>Membres bêta uniquement</p>
         </div>
-      </nav>
-      <nav class="nav visible-xs">
-        <div class="nav__start">
-          <div class="nav__logo">
-            <img src="images/logo.png" alt="">
-          </div>
-          <div class="burger-wrap">
-            <div class="burger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-        <div class="mobileMenu">
-          <div class="nav__links light-text">
-            <a href="" class="nav__link-item">Fonctionnalités</a>
-            <a href="" class="nav__link-item">Avantages</a>
-            <a href="" class="nav__link-item">Version bêta</a>
-          </div>
-          <div class="nav__login">
-            <a class="nav__cta cta" href="">
-              <span><img src="images/icons/arrow-right.png" alt=""></span>
-              Se connecter
-            </a>
-            <p>Membres bêta uniquement</p>
-          </div>
-        </div>
-      </nav>
-      <div class="intro-content">
-        <div class="intro-description hidden-xs">
-          <h1 class="intro-description__title">
-            <strong>Frida</strong>, l’assistant<br>
-            des <strong>freelances digitaux</strong>
-          </h1>
-          <p class="intro-description__text">
-            Frida est un service pour freelances qui s’occupe de toute<br>
-            votre administration et comptabilité : Devis, Contrats, Paiements. 
-          </p>
-          <p class="intro-description__text">
-            Grâce à Frida, gagnez un temps considérable<br>
-            et concentrez-vous uniquement sur ce que vous aimez :<br>
-            votre travail.
-          </p>
-          <a class="intro-description__cta cta" href="">
-              <span><img src="images/icons/arrow-right.png" alt=""></span>
-              S'inscrire à la bêta
-            </a>
-        </div>
-        <div class="intro-description visible-xs">
-            <h1 class="intro-description__title">
-              <strong>Frida</strong>, l’assistant<br>
-              des <strong>freelances digitaux</strong>
-            </h1>
-            <p class="intro-description__text">
-              Frida est un service pour freelances qui s’occupe de toute
-              votre administration et comptabilité : Devis, Contrats, Paiements. 
-            </p>
-            <p class="intro-description__text">
-              Grâce à Frida, gagnez un temps considérable
-              et concentrez-vous uniquement sur ce que vous aimez :
-              votre travail.
-            </p>
-            <a class="intro-description__cta cta" href="">
-                <span><img src="images/icons/arrow-right.png" alt=""></span>
-                S'inscrire à la bêta
-              </a>
-          </div>
-        <div class="intro-mockup">
-          <img src="images/Mockup/MOCKUP.png" alt="">
-        </div>
       </div>
-    </div>
-  </section>
-    <section id="features" class="arguments">
-      <div class="arguments__container container">
-
-        <header class="arguments__header">
-          <h2 class="arguments__title">Un seul produit pour gérer tous les aspects de la vie d’un projet</h2>
-          <p class="arguments__text">Toutes les verticales de la vie de votre projet sont liées avec Frida, gagnez ainsi un temps considérable.</p>
-        </header>
-        <hr class="arguments__separator separator">
-        <div class="argument container">
-          <div class="arguments__image arguments__image--devis">
-            <img src="images/Devis.png" alt="devis">
-          </div>
-          <div class="card card--devis">
-            <h3 class="card__title">De la création d'un devis</h3>
-            <p class="card__text">Créez un devis personnalisable et signable électroniquement.</p>
-          </div>
-        </div>
-        <div class="argument container">
-          <div class="arguments__image arguments__image--contrat">
-            <img src="images/Contrat.png" alt="contrat">
-          </div>
-          <div class="card card--contrat">
-            <h3 class="card__title">En passant par le contrat</h3>
-            <p class="card__text">Travaillez en toute sérénité grâce à nos contrats conformes et adaptés aux freelances.</p>
-          </div>
-        </div>
-        <div class="argument container">
-          <div class="arguments__image arguments__image--relance">
-            <img src="images/Relance.png" alt="relance">
-          </div>
-          <div class="card card--relance">
-            <h3 class="card__title">Jusqu'à la relance client</h3>
-            <p class="card__text">Avec Frida, vous avez la possibilité de relancer vos clients et d’avoir recours à l’envoi de courriers recommandés.</p>
-          </div>
-        </div>
-        <div class="argument container">
-          <div class="arguments__image arguments__image--workflow">
-            <img src="images/Wheel.png" alt="workflow">
-          </div>
-          <div class="card card--workflow">
-            <h3 class="card__title">Un workflow simple et automatisé</h3>
-            <ul class="workflow__list">
-              <li class="workflow__item workflow__item--1">
-                <img src="images/devis-small.png" class="workflow__icon">
-                <span class="workflow__text"> Création et envoi de devis</span>
-              </li>
-              <li class="workflow__item workflow__item--2">
-                <img src="images/contrat-small.png" class="workflow__icon">
-                <span class="workflow__text"> Création et envoi de contrat</span>
-              </li>
-              <li class="workflow__item workflow__item--3">
-                <img src="images/time-small.png" class="workflow__icon">
-                <span class="workflow__text"> Time tracking, Calendrier</span>
-              </li>
-              <li class="workflow__item workflow__item--4">
-                <img src="images/facture-small.png" class="workflow__icon">
-                <span class="workflow__text"> Création et envoi de factures</span>
-              </li>
-              <li class="workflow__item workflow__item--5">
-                <img src="images/finances-small.png" class="workflow__icon">
-                <span class="workflow__text"> Suivi des finances</span>
-              </li>
-              <li class="workflow__item workflow__item--6">
-                <img src="images/relance-small.png" class="workflow__icon">
-                <span class="workflow__text"> Relance client</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div id="perks" class="arguments__header">
-          <h2 class="arguments__title">Un produit pensé pour les freelances français... à l'échelle mondiale</h2>
-        </div>
-        <div class="argument container abroad">
-          <div class="card card--big card--legislation">
-            <img src="images/Legislation.png" alt="legislation française" class="card__floating-image">
-            <p class="card__text">Frida est entièrement adapté à la législation française (statuts, impôts).</p>
-          </div>
-          <div class="card card--big card--abroad">
-            <img src="images/Abroad.png" alt="legislation française" class="card__floating-image">
-            <p class="card__text">Des clients à l’étranger ? Frida vous permet d’envoyer vos documents en anglais et dans de multiples devises. ($,£,¥).</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  <footer id="beta" class="footer subscribe">
-    <div class="subscribe__container">
-      <h2 class="subscribe__headline">Inscrivez vous à la bêta</h2>
-      <p class="subscribe__text">Testez en exclusivité Frida avant son lancement à la rentrée 2018 !</p>
-      <form class="subscribe__form" id="subscribe-form">
-        <input class="subscribe__email" type="email" name="email" id="email-input" placeholder="Adresse e-mail" required>
-        <p class="subscribe__button-wrap">
-          <button class="subscribe__submit cta" type="submit"><span><img src="images/icons/arrow-right.png" alt=""></span>S'inscrire</button>
+    </nav>
+    <div class="intro-content">
+      <div class="intro-description hidden-xs">
+        <h1 class="intro-description__title">
+          <strong>Frida</strong>, l’assistant
+          <br> des
+          <strong>freelances digitaux</strong>
+        </h1>
+        <p class="intro-description__text">
+          Frida est un service pour freelances qui s’occupe de toute
+          <br> votre administration et comptabilité : devis, contrats, paiements.
         </p>
-        <p class="subscribe__connect">Déjà inscrit ? <a href="#">Se connecter</a></p>
-      </form>
-      <p class="subscribe__subscribed">Vous êtes inscrit(e) à la liste !</p>
-  
+        <p class="intro-description__text">
+          Grâce à Frida, gagnez de nombreuses heures chaque mois
+          <br> et concentrez-vous uniquement sur ce que vous aimez :
+          <br> votre travail.
+        </p>
+        <a class="intro-description__cta cta" href="">
+          <span>
+            <img src="images/icons/arrow-right.png" alt="">
+          </span>
+          S'inscrire à la bêta
+        </a>
+      </div>
+      <div class="intro-description visible-xs">
+        <h1 class="intro-description__title">
+          <strong>Frida</strong>, l’assistant
+          <br> des
+          <strong>freelances digitaux</strong>
+        </h1>
+        <p class="intro-description__text">
+          Frida est un service pour freelances qui s’occupe de toute votre administration et comptabilité : Devis, Contrats, Paiements.
+        </p>
+        <p class="intro-description__text">
+          Grâce à Frida, gagnez un temps considérable et concentrez-vous uniquement sur ce que vous aimez : votre travail.
+        </p>
+        <a class="intro-description__cta cta" href="">
+          <span>
+            <img src="images/icons/arrow-right.png" alt="">
+          </span>
+          S'inscrire à la bêta
+        </a>
+      </div>
+      <div class="intro-mockup">
+        <img src="images/Mockup/MOCKUP.png" alt="">
+      </div>
     </div>
-  </footer>
-  
-    
-      <script src="javascripts/app.js"></script>
-    
-  </body>
+  </div>
+</section>
+
+<section id="features" class="arguments">
+  <div class="arguments__container container">
+
+    <header class="arguments__header">
+      <h2 class="arguments__title">Un seul produit pour gérer tous les aspects de la vie d’un projet</h2>
+      <p class="arguments__text">Toutes les verticales de la vie de votre projet sont liées avec Frida, gagnez ainsi un temps considérable.</p>
+    </header>
+    <hr class="arguments__separator separator">
+    <div class="argument container">
+      <div class="arguments__image arguments__image--devis">
+        <img src="images/Devis.png" alt="devis">
+      </div>
+      <div class="card card--devis">
+        <h3 class="card__title">De la création d'un devis</h3>
+        <p class="card__text">Créez un devis personnalisable et signable électroniquement.</p>
+      </div>
+    </div>
+    <div class="argument container">
+      <div class="arguments__image arguments__image--contrat">
+        <img src="images/Contrat.png" alt="contrat">
+      </div>
+      <div class="card card--contrat">
+        <h3 class="card__title">En passant par le contrat</h3>
+        <p class="card__text">Travaillez en toute sérénité grâce à nos contrats conformes et adaptés aux freelances.</p>
+      </div>
+    </div>
+    <div class="argument container">
+      <div class="arguments__image arguments__image--relance">
+        <img src="images/Relance.png" alt="relance">
+      </div>
+      <div class="card card--relance">
+        <h3 class="card__title">Jusqu'à la relance client</h3>
+        <p class="card__text">Avec Frida, vous avez la possibilité de relancer vos clients et d’avoir recours à l’envoi de courriers recommandés.</p>
+      </div>
+    </div>
+    <div class="argument container">
+      <div class="arguments__image arguments__image--workflow">
+        <img src="images/Wheel.png" alt="workflow">
+      </div>
+      <div class="card card--workflow">
+        <h3 class="card__title">Un workflow simple et automatisé</h3>
+        <ul class="workflow__list">
+          <li class="workflow__item workflow__item--1">
+            <img src="images/devis-small.png" class="workflow__icon">
+            <span class="workflow__text"> Création et envoi de devis</span>
+          </li>
+          <li class="workflow__item workflow__item--2">
+            <img src="images/contrat-small.png" class="workflow__icon">
+            <span class="workflow__text"> Création et envoi de contrats</span>
+          </li>
+          <li class="workflow__item workflow__item--3">
+            <img src="images/time-small.png" class="workflow__icon">
+            <span class="workflow__text"> Time tracking, calendrier</span>
+          </li>
+          <li class="workflow__item workflow__item--4">
+            <img src="images/facture-small.png" class="workflow__icon">
+            <span class="workflow__text"> Création et envoi de factures</span>
+          </li>
+          <li class="workflow__item workflow__item--5">
+            <img src="images/finances-small.png" class="workflow__icon">
+            <span class="workflow__text"> Suivi des finances</span>
+          </li>
+          <li class="workflow__item workflow__item--6">
+            <img src="images/relance-small.png" class="workflow__icon">
+            <span class="workflow__text"> Relance client</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="perks" class="arguments__header">
+      <h2 class="arguments__title">Un produit pensé pour les freelances français... à l'échelle mondiale</h2>
+    </div>
+    <div class="argument container abroad">
+      <div class="card card--big card--legislation">
+        <img src="images/Legislation.png" alt="legislation française" class="card__floating-image">
+        <p class="card__text">Frida est entièrement adapté à la législation française (statuts, impôts).</p>
+      </div>
+      <div class="card card--big card--abroad">
+        <img src="images/Abroad.png" alt="legislation française" class="card__floating-image">
+        <p class="card__text">Des clients à l’étranger ? Frida vous permet d’envoyer vos documents en anglais et dans de multiples devises ($,£,¥).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="beta" class="footer subscribe">
+  <div class="subscribe__container">
+    <h2 class="subscribe__headline">Inscrivez vous à la bêta</h2>
+    <p class="subscribe__text">Testez en exclusivité Frida avant son lancement à la rentrée 2018 !</p>
+    <form class="subscribe__form" id="subscribe-form">
+      <input class="subscribe__email" type="email" name="email" id="email-input" placeholder="Adresse e-mail" required>
+      <p class="subscribe__button-wrap">
+        <button class="subscribe__submit cta" type="submit">
+          <span>
+            <img src="images/icons/arrow-right.png" alt="">
+          </span>S'inscrire</button>
+      </p>
+      <p class="subscribe__connect">Déjà inscrit ?
+        <a href="#">Se connecter</a>
+      </p>
+    </form>
+    <p class="subscribe__subscribed">Vous êtes inscrit(e) à la liste !</p>
+
+  </div>
+</footer>
+ 
+  <script src="javascripts/app.js"></script> 
+</body>
+
 </html>

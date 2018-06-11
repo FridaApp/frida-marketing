@@ -5777,6 +5777,10 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
+smooth-scroll@^14.2.0:
+  version "14.2.0"
+  resolved "https://registry.yarnpkg.com/smooth-scroll/-/smooth-scroll-14.2.0.tgz#87a224fc32c8956995e5bb014a5e1a07b8361e21"
+
 snake-case@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/snake-case/-/snake-case-2.1.0.tgz#41bdb1b73f30ec66a04d4e2cad1b76387d4d6d9f"
