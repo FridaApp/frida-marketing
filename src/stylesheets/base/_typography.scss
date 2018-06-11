@@ -29,6 +29,14 @@ h3 {
   }
 }
 
+.nav__link-item {
+  transition: color 300ms ease-in-out;
+
+  &:hover {
+    color: $darkgrey;
+  }
+}
+
 .light-text {
   font-weight: 300;
 }
