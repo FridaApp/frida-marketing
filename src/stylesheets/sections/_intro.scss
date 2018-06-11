@@ -55,7 +55,7 @@
   display: block;
   margin: 60px auto 0px;
   width: 260px;
-  animation: floating 1.5s ease-in-out infinite;
+  animation: floating 3s ease-in-out infinite;
   @include breakpoint(medium) {
     display: inline-block;
     width: 500px;
