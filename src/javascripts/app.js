@@ -4,6 +4,7 @@ import './libs/jquery';
 import './libs/appear'
 import './modules/appear'
 import initBurger from './modules/burger'
+import initSmoothScroll from './modules/smoothscroll'
 
 class App {
     constructor() {
@@ -20,4 +21,5 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('dom loaded');
     const app = new App()
     initBurger();
+    initSmoothScroll();
 });

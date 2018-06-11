@@ -6,7 +6,8 @@
   "author": "Marine LB <marine.leborgne@live.fr>",
   "license": "MIT",
   "dependencies": {
-    "blendid": "^4.4.3"
+    "blendid": "^4.4.3",
+    "smooth-scroll": "^14.2.0"
   },
   "scripts": {
     "dev": "yarn run blendid",
