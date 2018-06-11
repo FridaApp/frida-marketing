@@ -11,17 +11,17 @@
 
   &__email {
     background-color: transparent;
-    border:none;
+    border: none;
     border-bottom: 1px solid $text-color;
     color: $text-color;
     font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
-    text-align: center;
     height: 45px;
     width: 100%;
-    margin-bottom:4rem;
-    outline:none;
-
+    margin-bottom: 4rem;
+    outline: none;
+    padding-left: 14px;
+    box-sizing: border-box;
     @include breakpoint(small) {
       width: 340px;
     }
