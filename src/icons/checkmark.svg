@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="13px" viewBox="0 0 18 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="MAQUETTES" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Tarifs" transform="translate(-672.000000, -287.000000)" fill-rule="nonzero">
+            <g id="Frida-Plus" transform="translate(590.000000, 181.000000)">
+                <g id="Group-2" transform="translate(82.000000, 101.000000)">
+                    <path d="M6,15.17 L2.53,11.7 C2.14,11.31 1.51,11.31 1.12,11.7 C0.73,12.09 0.73,12.72 1.12,13.11 L5.3,17.29 C5.69,17.68 6.32,17.68 6.71,17.29 L17.29,6.71 C17.68,6.32 17.68,5.69 17.29,5.3 C16.9,4.91 16.27,4.91 15.88,5.3 L6,15.17 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

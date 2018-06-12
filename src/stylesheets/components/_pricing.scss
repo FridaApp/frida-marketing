@@ -1,0 +1,111 @@
+.pricing {
+  background-color: white;
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  width: 370px;
+    z-index: 2;
+
+
+  @include breakpoint(xsmall) {
+width: 100%;
+margin: 50px 0;
+  }
+}
+
+.pricing-title {
+  color: $red;
+  font-weight: 100;
+  padding: 32px 0 37px 0;
+  text-align: center;
+
+  b {
+    font-weight: 400;
+  }
+}
+
+.pricing-list {
+  color: #000000;
+  margin: 0 40px 48px 82px;
+
+  &__item {
+    display: flex;
+    font-weight: 100;
+    padding: 7px 0;
+
+    svg {
+      fill: $red;
+      height: 100%;
+      width: 16px;
+      margin-right: 28px;
+    }
+
+    b {
+      font-weight: 400;
+    }
+
+    &--not {
+      svg {
+        width: 13px;
+        margin-right: 31px;
+      }
+
+      span:last-child {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.pricing-footer {
+  background-color: $red;
+  color: white;
+  font-size: 36px;
+  padding: 20px 50px 25px 50px;
+  text-align: center;
+
+  sub {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  &__annual {
+    font-size: 14px;
+
+    sub {
+      font-size: 10px;
+    }
+  }
+}
+
+.pricing--start {
+  transform: scale(0.85) translateY(-50%);
+  left: 80%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+
+
+  @include breakpoint(xsmall) {
+    position: relative;
+    top: initial;
+    left: initial;
+    transform: initial;
+  }
+
+  .pricing-title {
+    color: $header-color;
+  }
+
+  .pricing-list__item {
+    color: $text-color;
+    svg {
+      fill: $text-color;
+    }
+  }
+
+  .pricing-footer {
+    background-color: $header-color;
+  }
+}

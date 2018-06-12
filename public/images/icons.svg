@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="checkmark" viewBox="0 0 18 13">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    
+    <g id="MAQUETTES" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Tarifs" transform="translate(-672.000000, -287.000000)" fill-rule="nonzero">
+            <g id="Frida-Plus" transform="translate(590.000000, 181.000000)">
+                <g id="Group-2" transform="translate(82.000000, 101.000000)">
+                    <path d="M6,15.17 L2.53,11.7 C2.14,11.31 1.51,11.31 1.12,11.7 C0.73,12.09 0.73,12.72 1.12,13.11 L5.3,17.29 C5.69,17.68 6.32,17.68 6.71,17.29 L17.29,6.71 C17.68,6.32 17.68,5.69 17.29,5.3 C16.9,4.91 16.27,4.91 15.88,5.3 L6,15.17 Z" id="Shape"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</symbol><symbol id="cross" viewBox="0 0 11 11">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy 14</title>
+    <desc>Created with Sketch.</desc>
+    
+    <g id="MAQUETTES" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Tarifs" transform="translate(-1019.000000, -494.000000)" fill-rule="nonzero">
+            <g id="Frida-Start" transform="translate(941.000000, 209.000000)">
+                <g id="Group-2-Copy" transform="translate(76.000000, 94.000000)">
+                    <path d="M12.7650128,191.243021 C12.4516965,190.929705 11.9455703,190.929705 11.632254,191.243021 L7.70375,195.163491 L3.77524602,191.234987 C3.46192975,190.921671 2.95580347,190.921671 2.6424872,191.234987 C2.32917093,191.548303 2.32917093,192.05443 2.6424872,192.367746 L6.57099118,196.29625 L2.6424872,200.224754 C2.32917093,200.53807 2.32917093,201.044197 2.6424872,201.357513 C2.95580347,201.670829 3.46192975,201.670829 3.77524602,201.357513 L7.70375,197.429009 L11.632254,201.357513 C11.9455703,201.670829 12.4516965,201.670829 12.7650128,201.357513 C13.0783291,201.044197 13.0783291,200.53807 12.7650128,200.224754 L8.83650882,196.29625 L12.7650128,192.367746 C13.0702953,192.062464 13.0702953,191.548303 12.7650128,191.243021 Z" id="Shape-Copy-14"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</symbol></svg>
