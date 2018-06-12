@@ -78,14 +78,15 @@
 }
 
 .intro-content--pricing {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+
+  width: 77%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 
   @include breakpoint(xsmall) {
-    position: relative;
-    top: initial;
-    transform: initial;
+  width: initial;
+  margin-top: initial;
+  margin-bottom: initial;
   }
 }
 
