@@ -1,5 +1,5 @@
 .arguments {
-  background: $lightgrey;
+  background: #F9FCFF;
   padding:3rem 0 6rem;
 }
 .argument.container {
@@ -56,7 +56,7 @@
 }
 .card--appeared {
   opacity: 1;
-  transform: translateY(0);  
+  transform: translateY(0);
 }
 .arguments__image {
   max-width: 60px;
@@ -110,7 +110,7 @@
 .card-workflow--appeared .workflow__item{
   opacity: 1;
   transform: translateX(0);
-} 
+}
 
 @for $i from 1 through 6 {
   .workflow__item--#{$i} {
